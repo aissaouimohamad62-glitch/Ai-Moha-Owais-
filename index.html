@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OVERHAUL | Portfolio</title>
+    <title>Ai Moha (Owais)| Portfolio</title>
     <!-- استدعاء خطوط جوجل العصرية -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
     <!-- أيقونات FontAwesome -->
@@ -12,22 +12,21 @@
     <style>
         /* المتغيرات الأساسية للوضع النهاري (ذهبي وأبيض) */
         :root {
-    --bg-color: #ffffff19;
-    --text-color: #1a1a1a;
-    --primary-color: #d4af37; /* ذهبي */
-    --secondary-color: #f8f9fa;
-    --glass-bg: rgba(255, 255, 255, 0.25);
-    --glass-border: rgba(255, 255, 255, 0.4);
-    --shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
-    --glow: 0 0 15px rgba(212, 175, 55, 0.5);
-    
-    /* التعديل هنا: إضافة خطوط الإيموجي لدعم جميع الأنظمة والمتصفحات */
-    
-    --font-ar: 'Cairo', "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
-    --font-en: 'Poppins', "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+            --bg-color: #ffffff19;
+            --text-color: #1a1a1a;
+            --primary-color: #d4af37; /* ذهبي */
+            --secondary-color: #f8f9fa;
+            --glass-bg: rgba(255, 255, 255, 0.25);
+            --glass-border: rgba(255, 255, 255, 0.4);
+            --shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+            --glow: 0 0 15px rgba(212, 175, 55, 0.5);
+            
+            /* التعديل هنا: إضافة خطوط الإيموجي لدعم جميع الأنظمة والمتصفحات */
+            --font-ar: 'Cairo', "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+            --font-en: 'Poppins', "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
 
-    --transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
+            --transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
 
         /* المتغيرات للوضع الليلي (مستوحى من Solo Leveling - أسود، أزرق سماوي مضيء، بنفسجي) */
         [data-theme="dark"] {
@@ -42,32 +41,25 @@
         }
 
         /* 1. إزالة فرض الخطوط الإجباري على جميع العناصر */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
 
-/* 2. وضع الخط العربي كلغة افتراضية تتوارثها العناصر بشكل سليم */
-body {
-    font-family: var(--font-ar);
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    transition: var(--transition);
-    overflow-x: hidden;
-}
-
-/* 3. عند تغيير اللغة للإنجليزية، يتغير الخط الأساسي بدون تدمير الأيقونات */
-html[lang="en"] body {
-    font-family: var(--font-en);
-}
-
+        /* 2. وضع الخط العربي كلغة افتراضية تتوارثها العناصر بشكل سليم */
         body {
+            font-family: var(--font-ar);
             background-color: var(--bg-color);
             color: var(--text-color);
             transition: var(--transition);
             overflow-x: hidden;
+        }
+
+        /* 3. عند تغيير اللغة للإنجليزية، يتغير الخط الأساسي بدون تدمير الأيقونات */
+        html[lang="en"] body {
+            font-family: var(--font-en);
         }
 
         /* خلفية الموقع (صورة 3000 مع تأثير ضبابي) */
@@ -144,7 +136,6 @@ html[lang="en"] body {
             position: relative;
             padding: 5px 0;
             transition: var(--transition);
-            
             letter-spacing: 1px;
             opacity: 0.85;
         }
@@ -437,16 +428,13 @@ html[lang="en"] body {
 
     <!-- القائمة العلوية السينمائية -->
     <nav>
-        <a href="#" class="logo">OVERHAUL</a>
+        <a href="#" class="logo">Ai Moha (Owais)</a>
         
         <ul class="nav-links">
-            <li><a href="#" data-i18n="navHome">الرئيسية 🏠</a></li>
-            <li><a href="#services" data-i18n="navServices">الخدمات 💼</a></li>
-            <li><a href="#portfolio" data-i18n="navYt1">العلم المحرم 👁️</a></li>
-            <li><a href="#portfolio" data-i18n="navYt2">الإصلاح الشامل 🔄</a></li>
-            <li><a href="https://www.instagram.com/overhaul_10/" target="_blank" data-i18n="navInsta">إنستقرام 📸</a></li>
-            <li><a href="https://www.facebook.com/profile.php?id=61577476100546" target="_blank" data-i18n="navFb">فيسبوك 📘</a></li>
-            <li><a href="#books" data-i18n="navBooks">المكتبة 📚</a></li>
+            <li><a href="#" data-i18n="navHome">الرئيسية</a></li>
+            <li><a href="#services" data-i18n="navServices">الخدمات</a></li>
+            <li><a href="#portfolio" data-i18n="navYt1">المحتوى</a></li>
+            <li><a href="#books" data-i18n="navBooks">المكتبة</a></li>
         </ul>
 
         <div class="controls">
@@ -462,17 +450,17 @@ html[lang="en"] body {
 
     <header class="hero">
         <img src="2000.png" alt="Profile Picture" class="profile-pic">
-        <h1 data-i18n="name">OVERHAUL | أويس 👑</h1>
+        <h1 data-i18n="name">Ai Moha (Owais)</h1>
         <h2 data-i18n="title">مطور واجهات أمامية & صانع محتوى 🚀</h2>
         <p data-i18n="description">أصنع واجهات ويب عصرية وتجارب بصرية مذهلة، وأدمج بين البرمجة (HTML, CSS, JS) وصناعة الفيديو والكتب لتقديم قيمة حقيقية ✨.</p>
         
         <div class="social-links">
             <a href="mailto:aissaouimohamad62@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
-            <a href="https://www.facebook.com/profile.php?id=61577476100546" target="_blank" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com/overhaul_10/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/ai10moha/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/ai._.mohaowais/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
         </div>
 
-        <a href="#services" class="btn" data-i18n="hireMe">تواصل معي الآن ⚡</a>
+        <a href="https://www.instagram.com/ai._.mohaowais/" class="btn" data-i18n="hireMe">تواصل معي الآن ⚡</a>
     </header>
 
     <section id="services">
@@ -482,13 +470,13 @@ html[lang="en"] body {
                 <i class="fa-solid fa-code"></i>
                 <h3 data-i18n="devTitle">تطوير الويب (Front-End) 💻</h3>
                 <p data-i18n="devDesc">تصميم وبرمجة واجهات أمامية احترافية، عصرية ومتجاوبة مع جميع الشاشات باستخدام تقنيات HTML, CSS, JavaScript.</p>
-                <a href="https://www.instagram.com/overhaul_10/" target="_blank" class="btn" data-i18n="contactDev">اطلب موقعك</a>
+                <a href="https://www.instagram.com/ai._.mohaowais/" target="_blank" class="btn" data-i18n="contactDev">اطلب موقعك</a>
             </div>
             <div class="glass-card">
                 <i class="fa-solid fa-video"></i>
                 <h3 data-i18n="videoTitle">مونتاج وصناعة المحتوى 🎬</h3>
                 <p data-i18n="videoDesc">تحرير وتصميم الفيديوهات باحترافية عالية، إضافة تأثيرات بصرية جذابة لتنمية قنواتك ومنصاتك على السوشيال ميديا.</p>
-                <a href="https://www.instagram.com/overhaul_10/" target="_blank" class="btn" data-i18n="contactVideo">تواصل للإنتاج</a>
+                <a href="https://www.instagram.com/ai._.mohaowais/" target="_blank" class="btn" data-i18n="contactVideo">تواصل للإنتاج</a>
             </div>
         </div>
     </section>
@@ -498,26 +486,19 @@ html[lang="en"] body {
         <div class="grid-container">
             <div class="glass-card">
                 <i class="fa-brands fa-youtube" style="color: #ff0000;"></i>
-                <h3>Forbidden Knowledge <br><span style="font-size: 1rem;">العلم المحرّم (عربي)</span></h3>
+                <h3>Ai Moha (Owais)
+ <br><span style="font-size: 1rem;">YouTube</span></h3>
                 <div class="video-box">
                     <i class="fa-solid fa-play fa-2x"></i>
                 </div>
-                <p data-i18n="ytArDesc">قناتي المخصصة للمحتوى العربي واكتشاف الأسرار والمعرفة العميقة 🔍.</p>
+                <p data-i18n="ytArDesc"></p>
             </div>
 
-            <div class="glass-card">
-                <i class="fa-brands fa-youtube" style="color: #ff0000;"></i>
-                <h3>Comprehensive reform
- <br><span style="font-size: 1rem;">الإصلاح الشامل (English)</span></h3>
-                <div class="video-box">
-                    <i class="fa-solid fa-play fa-2x"></i>
-                </div>
-                <p data-i18n="ytEnDesc">قناتي الأجنبية المخصصة للتطوير الذاتي والإصلاح الشامل باللغة الإنجليزية 🌍.</p>
-            </div>
+          
 
             <div class="glass-card">
                 <i class="fa-brands fa-instagram" style="color: #e1306c;"></i>
-                <h3 data-i18n="igTitle">مقاطع إنستقرام 🔥</h3>
+                <h3 data-i18n="igTitle">Instagram</h3>
                 <div class="video-box">
                     <i class="fa-solid fa-play fa-2x"></i>
                 </div>
@@ -526,7 +507,7 @@ html[lang="en"] body {
 
             <div class="glass-card">
                 <i class="fa-brands fa-facebook" style="color: #1877f2;"></i>
-                <h3 data-i18n="fbTitle">مقاطع فيسبوك 📱</h3>
+                <h3 data-i18n="fbTitle">Facebook</h3>
                 <div class="video-box">
                     <i class="fa-solid fa-play fa-2x"></i>
                 </div>
@@ -578,14 +559,13 @@ html[lang="en"] body {
         // إضافة الإيموجيات مباشرة داخل قاموس الترجمة لضمان بقائها عند تبديل اللغات
         const Translations = {
             ar: {
-                navHome: "الرئيسية 🏠",
-                navServices: "الخدمات 💼",
-                navYt1: "العلم المحرَّم 👁️",
-                navYt2: "الإصلاح الشامل 🔄",
-                navInsta: "إنستقرام 📸",
-                navFb: "فيسبوك 📘",
-                navBooks: "المكتبة 📚",
-                name: "OVERHAUL | أويس 👑",
+                navHome: "الرئيسية",
+                navServices: "الخدمات",
+                navYt1: "المحتوى",
+                navInsta: "إنستقرام",
+                navFb: "فيسبوك",
+                navBooks: "المكتبة",
+                name: "Ai Moha (Owais)",
                 title: "مطور واجهات أمامية & صانع محتوى 🚀",
                 description: "أصنع واجهات ويب عصرية وتجارب بصرية مذهلة، وأدمج بين البرمجة (HTML, CSS, JS) وصناعة الفيديو والكتب لتقديم قيمة حقيقية ✨.",
                 hireMe: "تواصل معي الآن ⚡",
@@ -603,44 +583,53 @@ html[lang="en"] body {
                 igDesc: "أحدث الريلز والمقاطع القصيرة المليئة بالتأثيرات الاحترافية.",
                 fbTitle: "مقاطع فيسبوك 📱",
                 fbDesc: "المحتوى المرئي والمنشورات التفاعلية على منصة فيسبوك.",
-                booksTitle: "مكتبة OVERHAUL 📖",
+                booksTitle: "مكتبة Ai Moha (Owais) 📖",
                 booksSubTitle: "كتبي ومؤلفاتي 🖋️",
                 booksDesc: "أقوم بكتابة وبيع كتب متخصصة في تطوير الذات، الهندسة الاقتصادية، وبروتوكولات السيادة. يمكنك تصفح واقتناء كتبي من خلال متجري الخاص 🛒.",
                 visitStore: "زيارة مكتبة الكتب",
-                footerText: "جميع الحقوق محفوظة © 2026 | تم التطوير بواسطة OVERHAUL 👑"
+                footerText: "جميع الحقوق محفوظة © 2026 | تم التطوير بواسطة Ai Moha (Owais)"
             },
             en: {
-                navHome: "HOME 🏠",
-                navServices: "SERVICES 💼",
-                navYt1: "FORBIDDEN KNOWLEDGE 👁️",
-                navYt2: "COMPREHENSIVE REFORM 🔄",
-                navInsta: "INSTAGRAM 📸",
-                navFb: "FACEBOOK 📘",
-                navBooks: "LIBRARY 📚",
-                name: "OVERHAUL l OWAIS 👑",
+                navHome: "Home",
+                navServices: "Services",
+                navYt1: "Content",
+                navInsta: "Instagram",
+                navFb: "Facebook",
+                navBooks: "Library",
+                name: "Ai Moha (Owais)",
                 title: "Front-End Developer & Content Creator 🚀",
-                description: "I create modern web interfaces and stunning visual experiences, blending coding (HTML, CSS, JS) with video editing and book writing to deliver real value ✨.",
+                description: "I craft modern web interfaces and stunning visual experiences, blending coding (HTML, CSS, JS) with video production and book creation to deliver real value ✨.",
                 hireMe: "Contact Me Now ⚡",
                 servicesTitle: "My Services 🛠️",
-                devTitle: "Front-End Web Development 💻",
-                devDesc: "Designing and programming professional, modern, and responsive front-end interfaces using HTML, CSS, and JavaScript.",
-                contactDev: "Order Your Site",
+                devTitle: "Web Development (Front-End) 💻",
+                devDesc: "Designing and coding professional, modern, and responsive front-end interfaces using HTML, CSS, and JavaScript.",
+                contactDev: "Order Your Website",
                 videoTitle: "Video Editing & Content Creation 🎬",
-                videoDesc: "Professional video editing and designing, adding attractive visual effects to grow your channels and social media platforms.",
-                contactVideo: "Contact for Editing",
-                videosTitle: "Videos & Channels Gallery 📺",
-                ytArDesc: "My channel dedicated to Arabic content, discovering secrets, and deep knowledge 🔍.",
-                ytEnDesc: "My foreign channel dedicated to self-development and comprehensive overhaul in English 🌍.",
-                igTitle: "Instagram Reels 🔥",
-                igDesc: "The latest short reels and clips full of professional effects.",
-                fbTitle: "Facebook Videos 📱",
-                fbDesc: "Visual content and interactive posts on the Facebook platform.",
-                booksTitle: "OVERHAUL Library 📖",
-                booksSubTitle: "My Books & Publications 🖋️",
-                booksDesc: "I write and sell specialized books on self-development, economic engineering, and sovereignty protocols. You can browse and purchase my books through my store 🛒.",
-                visitStore: "Visit Book Store",
-                footerText: "All Rights Reserved © 2026 | Developed by OVERHAUL 👑"
+                videoDesc: "High-quality video editing and design, featuring engaging visual effects to grow your social media channels and platforms.",
+                contactVideo: "Contact for Production",
+                videosTitle: "Video & Channel Gallery 📺",
+                ytArDesc: "My channel dedicated to Arabic content, uncovering secrets, and exploring deep knowledge 🔍.",
+                ytEnDesc: "My foreign channel dedicated to self-development and comprehensive reform in English 🌍.",
+                igTitle: "Instagram Clips 🔥",
+                igDesc: "The latest Reels and short clips packed with professional effects.",
+                fbTitle: "Facebook Clips 📱",
+                fbDesc: "Visual content and interactive posts for Facebook.",
+                booksTitle: "Ai Moha (Owais) Library 📖",
+                booksSubTitle: "My Books and Publications 🖋️",
+                booksDesc: "I write and sell books specializing in self-development, economic engineering, and sovereignty protocols. You can browse and purchase my books through my store 🛒.",
+                visitStore: "Visit the Bookstore",
+                footerText: "All rights reserved © 2026 | Developed by Ai Moha (Owais)"
             }
+        };
+
+        // تحديث النصوص عند تغيير اللغة (هذه هي الدالة المفقودة/المبتورة)
+        const updateTexts = () => {
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (Translations[currentLang][key]) {
+                    el.textContent = Translations[currentLang][key];
+                }
+            });
         };
 
         langToggleBtn.addEventListener('click', () => {
@@ -648,17 +637,14 @@ html[lang="en"] body {
             document.documentElement.lang = currentLang;
             document.documentElement.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
             
-            // تغيير النص الداخلي فقط لزر الترجمة (للحفاظ على الإيموجي 💬)
+            // تحديث نص زر اللغة من EN إلى AR والعكس
             const langText = document.getElementById('langText');
             langText.innerText = currentLang === 'ar' ? 'EN' : 'AR';
             
-            document.querySelectorAll('[data-i18n]').forEach(element => {
-                const key = element.getAttribute('data-i18n');
-                if(Translations[currentLang][key]) {
-                    element.innerHTML = Translations[currentLang][key];
-                }
-            });
+            // استدعاء دالة تحديث النصوص لتفعيل الترجمة
+            updateTexts();
         });
+
     </script>
 </body>
 </html>
